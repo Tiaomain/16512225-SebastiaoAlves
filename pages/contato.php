@@ -28,25 +28,53 @@ if (isset($_POST['enviaContato'])) {
  echo "</b>Falha no envio do E-Mail!</b>"; } 
 } 
 ?>
- 
- <form action="<? $PHP_SELF; ?>" method="POST"> 
- <p> 
- Nome:<br /> 
- <input type="name" size="30" name="nome" required> 
- </p>   
- <p> 
- E-mail:<br /> 
- <input type="email" size="30" name="email" required> 
- </p>   
- <p> 
- Telefone:<br /> 
- <input type="number" size="35" name="telefone" pattern="([0-9]{2}) [0-9]{4}-[0-9]{4}" required> 
- </p>   
- <p> 
- Mensagem:<br /> 
- <input type="text" size="35" name="mensagem"  required> 
- </p>   
- <p>
-          <input type="submit" name="enviaContato" value="Enviar"> 
-   <input type="reset" name="BTApaga" value="Apagar">
-        </p>
+<div>
+     <div id="textContact">
+          Formulário de Contato
+     </div>
+     <div class="contact">
+          <form action="<? $PHP_SELF; ?>" method="POST">
+               <p>
+                    Nome:<br />
+                    <input type="name" size="30" name="nome" required>
+               </p>
+               <p>
+                    E-mail:<br />
+                    <input type="email" size="30" name="email" required>
+               </p>
+               <p>
+                    Telefone:<br />
+                    <input type="number" size="35" name="telefone" pattern="([0-9]{2}) [0-9]{4}-[0-9]{4}" required>
+               </p>
+               <p>
+                    Mensagem:<br />
+                    <input type="text" size="35" name="mensagem" required>
+               </p>
+               <p>
+                    <input type="submit" name="enviaContato" value="Enviar">
+                    <input type="reset" name="BTApaga" value="Apagar">
+               </p>
+          </form>
+     </div>
+     <div id="infContact">
+          Caso deseje, entre em contato pelo telefone ou e-mail abaixo:
+          
+          <div id="tel">
+               <p>
+                    Telefone:
+               </p>
+               <p>
+                    (11) 9999-9999
+               </p>
+
+          </div>
+          
+          <div>
+               <p>
+                    E-mail:
+               </p>
+               <p>
+                    meuemail@seudominio
+               </p>
+          </div>
+</div>

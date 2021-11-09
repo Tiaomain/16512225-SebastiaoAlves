@@ -7,12 +7,29 @@
     <title>Doces Caseiros</title>
 </head>
 <body>
-    <nav>
-        <ul class="menu">
-            <li><a href="#">Quem somos</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Localização</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.php">Quem somos</a></li>
+                <li><a href="index.php?pagina=pages/contato.php">Contato</a></li>
+                <li><a href="#">Localização</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <?php
+            if (isset($_GET['pagina']) && !empty($_GET['pagina'])) {
+                $pagina = $_GET['pagina'];
+                include ($pagina);
+            } else {
+                //include ('home.php');
+                echo "Página principal";
+            };
+
+        ?>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

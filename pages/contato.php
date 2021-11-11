@@ -29,6 +29,9 @@ if (isset($_POST['enviaContato'])) {
 } 
 ?>
 <div>
+     <div class="localization">
+          <a href=""><img src="" alt=""></a>
+     </div>
      <div id="textContact">
           Formulário de Contato
      </div>

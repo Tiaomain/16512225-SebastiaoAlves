@@ -11,7 +11,7 @@
         <nav>
             <div class="logo"><a href="index.php">Sebastião</a></div>
             <ul class="menu">
-                <li><a href="#">Quem somos</a></li>
+                <li><a href="index.php?pagina=pages/quemSou.php">Quem somos</a></li>
                 <li><a href="index.php?pagina=pages/contato.php">Contato</a></li>
                 <li><a href="#">Localização</a></li>
             </ul>
@@ -22,7 +22,10 @@
             if (isset($_GET['pagina']) && !empty($_GET['pagina'])) {
                 $pagina = $_GET['pagina'];
                 include ($pagina);
-            }
+            } else {
+                include ('pages/home.php');
+            };
+
         ?>
     </main>
     <footer>

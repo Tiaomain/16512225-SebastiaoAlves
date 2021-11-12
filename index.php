@@ -14,7 +14,6 @@
             <ul class="menu">
                 <li><a href="index.php?pagina=pages/quemSou.php">Quem somos</a></li>
                 <li><a href="index.php?pagina=pages/contato.php">Contato</a></li>
-                <li><a href="#">Localização</a></li>
             </ul>
         </nav>
     </header>

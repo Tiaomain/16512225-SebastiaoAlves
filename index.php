@@ -9,12 +9,13 @@
     <title>Desenvolvedor Iniciante</title>
 </head>
 
-<body class="container-lg">
+<body class="container-fluid">
     
         <header>
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark px-4">
                     <a class="navbar-brand" href="index.php">Sebastião</a>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">    
+                <div class="collapse navbar-collapse">    
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" href="index.php?pagina=pages/quemSou.php">Quem sou</a>
                         <a class="nav-item nav-link" href="index.php?pagina=pages/contato.php">Contato</a>
@@ -33,7 +34,7 @@
 
             ?>
         </main>
-        <footer class="modal-footer">
+        <footer class="modal-footer fixed-bottom">
             <p>Desenvolvido por: <strong>Sebastião Alves</strong></p>
             <p>RA : <strong>1651222-5</strong></p>
         </footer>

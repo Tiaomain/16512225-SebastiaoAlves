@@ -13,12 +13,12 @@
     
         <header>
             <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <div>
-                    <a class="navbar-brand" href="index.php">Sebastião</a></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.php?pagina=pages/quemSou.php">Quem sou</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php?pagina=pages/contato.php">Contato</a></li>
-                    </ul>
+                    <a class="navbar-brand" href="index.php">Sebastião</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">    
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.php?pagina=pages/quemSou.php">Quem sou</a>
+                        <a class="nav-item nav-link" href="index.php?pagina=pages/contato.php">Contato</a>
+                    </div>
                 </div>
             </nav>
         </header>

@@ -5,5 +5,4 @@
     <p>
         Estou concluindo o curso de Sistemas para Internet, onde aprendi a utilizar as ferramentas de desenvolvimento web, como: HTML, CSS, JavaScript, PHP, Banco de Daodos, entre outros. 
     </p>
-
 </div>

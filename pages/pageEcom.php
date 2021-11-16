@@ -13,4 +13,4 @@
 
 <img class="text-center img-service" src="images/imgEcom.png" alt="image Ecommerce template">
 
-<button type="button" class="btn btn-primary"> Voltar </button>
+<a class="btn btn-primary" href="index.php" role="button">Voltar</a>

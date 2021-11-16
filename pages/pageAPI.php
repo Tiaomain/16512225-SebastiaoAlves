@@ -7,4 +7,4 @@
 
 <img class="text-center img-service" src="images/imgAPI.png" alt="image API template">
 
-<button type="button" class="btn btn-primary"> Voltar </button>
+<a class="btn btn-primary" href="index.php" role="button">Voltar</a>

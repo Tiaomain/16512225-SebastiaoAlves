@@ -14,6 +14,6 @@ O termo <i><strong>CMS</strong></i> vem do inglês <i><strong>Content Management
     Então o CMS é a solução ideal para todo mundo que precisa de um site que não seja 100% estático e momentâneo (feito para ficar no ar por pouco tempo).
 </p>
 
-<img src="images/imgCMS.png" alt="CMS Image">
+<img class="text-center img-service" src="images/imgCMS.png" alt="CMS Image">
 
 <button type="button" class="btn btn-primary"> Voltar </button>

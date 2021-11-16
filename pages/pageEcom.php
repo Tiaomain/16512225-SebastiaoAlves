@@ -11,6 +11,6 @@
     Além dos processos de compra, o e-commerce se baseia, principalmente, na divulgação e promoção de seus produtos ou serviços — uma vez que as duas coisas podem ser vendidas online — por meio do marketing digital. Dessa forma, essa parte da conquista dos clientes também costuma ser feita pela internet.
 </p>
 
-<img src="images/imgEcom.png" alt="image Ecommerce template">
+<img class="text-center img-service" src="images/imgEcom.png" alt="image Ecommerce template">
 
 <button type="button" class="btn btn-primary"> Voltar </button>

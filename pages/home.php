@@ -3,8 +3,7 @@
     <p>Atualmente presto serviços de :
         <ul class="list-group" >
             <li><a href="index.php?pagina=pages/pageCMS.php">Sistema de Gestão de Conteúdos (CMS) Personalizado</a></li>
-            <li><a href="#">Personalização de sites</a></li>
-            <li><a href="#">E-commerce</a></li>
+            <li><a href="index.php?pagina=pages/pageEcom.php">E-commerce</a></li>
             <li><a href="#">Pernosalização de API RESTful</a></li>
         </ul>
     </p>

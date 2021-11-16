@@ -23,7 +23,7 @@
                 </div>
             </nav>
         </header>
-        <main class="container">
+        <main class="container py-3">
             <?php
                 if (isset($_GET['pagina']) && !empty($_GET['pagina'])) {
                     $pagina = $_GET['pagina'];

@@ -30,7 +30,7 @@ if (isset($_POST['enviaContato'])) {
 ?>
 <div>
      <div class="localization">
-          <a href=""><img src="" alt=""></a>
+          <a href="https://goo.gl/maps/tKox2mcsZSfREx7W9"><img src="images/Silicon Valley.png" alt=""></a>
      </div>
      <div id="textContact">
           Formulário de Contato

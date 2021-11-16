@@ -20,7 +20,7 @@
                 <div class="collapse navbar-collapse">    
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" href="index.php?pagina=pages/whoIm.php">Quem sou</a>
-                        <a class="nav-item nav-link" href="index.php?pagina=pages/contato.php">Contato</a>
+                        <a class="nav-item nav-link" href="index.php?pagina=pages/contact.php">Contato</a>
                     </div>
                 </div>
             </nav>

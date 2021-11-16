@@ -1,3 +1,7 @@
+li {
+    list-style-type: none;
+}
+
 .img-service {
     height: 250px;
     width: 450px;

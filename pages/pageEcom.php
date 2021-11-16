@@ -1,5 +1,5 @@
 <p>
-    E-commerce, ou comércio eletrônico, é uma modalidade de negócio em que as transações comerciais são realizadas totalmente online.
+    <i><strong>E-commerce</strong></i>, ou <i><strong>comércio eletrônico</strong></i>, é uma modalidade de negócio em que as transações comerciais são realizadas totalmente online.
 </p>
 <p>
     Desde a escolha do produto pelo cliente, até a finalização do pedido, com o pagamento, todo o processo deve ser realizado por meios digitais.

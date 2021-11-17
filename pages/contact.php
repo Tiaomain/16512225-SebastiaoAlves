@@ -1,42 +1,18 @@
-<?php
-if (isset($_POST['enviaContato'])) {
- 
- $nome = $_POST['nome'];
- $email = $_POST['email'];
- $telefone = $_POST['telefone']; 
- $mensagem = $_POST['mensagem'];
-
- $email_remetente = "meuemail@seudominio";
- 
-
- $email_destinatario = "email@querecebe";
- $email_reply = "$email"; 
- $email_assunto = "Assunto";
- 
-
- $email_conteudo = "Nome = $nome \n"; 
- $email_conteudo .= "Email = $email \n";
- $email_conteudo .= "Telefone = $telefone \n"; 
- $email_conteudo .= "Mensagem = $mensagem \n"; 
- 
- $email_headers = implode ( "\n",array ( "From: $email_remetente", "Reply-To: $email_reply", "Return-Path: $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
- 
- if (mail ($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
- echo "</b>E-Mail enviado com sucesso!</b>"; 
- } 
- else{ 
- echo "</b>Falha no envio do E-Mail!</b>"; } 
-} 
-?>
 <div>
      <div class="localization">
+          <p class="text1"> Localização </p>
           <a href="https://goo.gl/maps/tKox2mcsZSfREx7W9"><img src="images/Silicon Valley.png" alt=""></a>
+          <p>
+               <p class="local1">Vale do Silício</p>
+               <p class="local2">Califórnia</p>
+               <p class="local2">EUA</p>
+          </p>
      </div>
      <div id="textContact">
           Formulário de Contato
      </div>
      <div class="contact">
-          <form action="<? $PHP_SELF; ?>" method="POST">
+          <form action="#" method="POST">
                <p>
                     Nome:<br />
                     <input type="name" size="30" name="nome" required>
@@ -55,29 +31,24 @@ if (isset($_POST['enviaContato'])) {
                </p>
                <p>
                     <input type="submit" name="enviaContato" value="Enviar">
-                    <input type="reset" name="BTApaga" value="Apagar">
+                    <input type="reset" name="BTApaga" value="Limpar">
                </p>
           </form>
      </div>
      <div id="infContact">
-          Caso deseje, entre em contato pelo telefone ou e-mail abaixo:
+          <p>
+               Caso deseje, entre em contato pelo telefone ou e-mail abaixo:
+          <p>
           
           <div id="tel">
                <p>
-                    Telefone:
-               </p>
-               <p>
-                    (11) 9999-9999
+                    Telefone: (11) 9999-9999
                </p>
 
           </div>
-          
           <div>
                <p>
-                    E-mail:
-               </p>
-               <p>
-                    meuemail@seudominio
+                    E-mail: meuemail@seudominio
                </p>
           </div>
 </div>

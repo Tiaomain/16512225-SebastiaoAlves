@@ -9,3 +9,21 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+
+.text1 {
+    font-size: 22px;
+}
+
+.localization {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.local1 {
+    font-size: 20px;
+}
+
+.local2 {
+    font-size: 16px;
+}

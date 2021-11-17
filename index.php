@@ -36,7 +36,7 @@
 
             ?>
         </main>
-        <footer class="modal-footer fixed-bottom">
+        <footer class="modal-footer">
             <p>Desenvolvido por: <strong>Sebastião Alves</strong></p>
             <p>RA : <strong>1651222-5</strong></p>
         </footer>
